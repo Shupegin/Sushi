@@ -47,6 +47,7 @@ class MainActivity : AppCompatActivity() {
 
         navView.setupWithNavController(navController)
 
+
         supportFragmentManager.beginTransaction()
             .replace(R.id.frame_layout,menuFragment)
             .commit()
